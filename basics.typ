@@ -648,8 +648,7 @@ This example was borrowed from the documentation for fletcher: #uri("https://git
     #align(left, 
     [
       #pgctr.step()
-      #text("WHAT'S NEXT FOR ", font: "Avenir Next LT Pro", size: 2cm, weight: "bold", fill: white) #text("typst ", font: "Linux Libertine", size: 2cm, weight: "bold", fill: white, tracking: -2pt) #text("?", font: "Avenir Next LT Pro", size: 2cm, weight: "bold", fill: white)
-      #v(1cm)
+      #text("WHAT NEXT?", font: "Avenir Next LT Pro", size: 2cm, weight: "bold", fill: white)
     ]
     )
     #set text(fill: white, size: 12pt)
